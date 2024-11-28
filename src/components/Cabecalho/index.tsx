@@ -1,9 +1,9 @@
-import styles from './Cabecalho.module.css'
+import { Head } from './Styled'
 
 const Cabecalho = () => (
-  <header className={styles.cabecalho}>
+  <Head>
     <h1>EBAC Jobs</h1>
-  </header>
+  </Head>
 )
 
 export default Cabecalho
